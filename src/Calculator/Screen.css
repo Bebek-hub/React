@@ -1,0 +1,10 @@
+.display {
+    background-color: #cddecd;
+    text-align: right;
+    width: 14rem;
+    height: 3rem;
+    border: 3px inset #cddecd;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
