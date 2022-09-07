@@ -1,9 +1,9 @@
 // import React from "react";
 // import ReactDOM from "react-dom/client";
-import Container from './Calculator/Container';
-import Screen from './Calculator/Screen';
-import ButtonBg from './Calculator/ButtonBg';
-import Button from './Calculator/Button';
+import Container from './Calculator/Container/Container';
+import Screen from './Calculator/Screen/Screen';
+import ButtonBg from './Calculator/ButtonBg/ButtonBg';
+import Button from './Calculator/Button/Button';
 
 let btnValues = [
   ["AC", "DEL", "/"],
