@@ -1,4 +1,4 @@
-import "./Button.css"
+import "./Button.css";
 
 // const Button = ({ className, value }) => {
 //   return (
@@ -10,10 +10,10 @@ import "./Button.css"
 
 function Button(props) {
   return (
-    // <><button className="operator-clear">{props.value}</button>
-    <button className={props.className}>{props.value}</button>
-    // </>
-  )
+    <button className={props.className} onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
 }
 
-export default Button
+export default Button;
