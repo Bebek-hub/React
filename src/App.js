@@ -39,8 +39,10 @@ function App() {
     setCalc((prev) => prev.slice(0, -1));
   };
 
+
   const output = (e) => {
     e.preventDefault();
+    //eslint-disable-next-line
     setCalc((prev) => eval(prev));
   };
 
