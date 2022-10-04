@@ -36,9 +36,10 @@ function App() {
 
   const deleteInput = (e) => {
     e.preventDefault();
-    setCalc((prev) => prev.slice(0, -1));
+    let presentNumbers = calc.toString();
+    let delNumbers = presentNumbers.slice(0, -1);
+    setCalc((prev) => (prev = delNumbers));
   };
-
 
   const output = (e) => {
     e.preventDefault();
