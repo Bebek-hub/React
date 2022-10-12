@@ -1,4 +1,5 @@
-import "./ButtonBg.css"
+import React from 'react';
+import './ButtonBg.css';
 
 // const Buttonbg = ({ children }) => {
 //   return (
@@ -11,12 +12,7 @@ import "./ButtonBg.css"
 // export default Buttonbg
 
 function ButtonBg(props) {
-  return (
-    <div className="ButtonBg">
-      {props.children}
-    </div>
-  )
+  return <div className="ButtonBg">{props.children}</div>;
 }
 
-
-export default ButtonBg
+export default ButtonBg;
